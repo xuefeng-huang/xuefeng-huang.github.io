@@ -1,0 +1,9 @@
+baseurl = "http://xuefeng-huang.github.io/"
+languageCode = "en-us"
+title = "Huang xuefeng's blog"
+copyright = "Copyright (c) 2015. All rights reserved."
+paginate = 5
+theme = "hugo-bootstrap"
+
+[params]
+highlight = "dark"
