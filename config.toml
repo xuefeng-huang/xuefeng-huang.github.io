@@ -1,14 +1,59 @@
-baseurl = "http://xuefeng-huang.github.io/"
+baseURL = "http://example.com/"
 languageCode = "en-us"
-title = "Huang xuefeng's blog"
-copyright = "Copyright (c) 2015. All rights reserved."
-paginate = 5
-theme = "hugo-bootstrap"
-disqusShortname = "xuefeng-huang-blog"
+title = "Xuefeng Huang"
+theme = "minimal"
+disqusShortname = "xuefeng-huang-blog" # delete this to disable disqus comments
+googleAnalytics = ""
 
 [params]
-highlight = "dark"
+    author = "xuefeng huang"
+    description = "Personal blog, life thoughts, etc."
+    githubUsername = "#"
+    accent = "#4AB3F4"
+    showBorder = false
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
-[params.theme]
-name = "sandstone"
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 3
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:timhxf@gmail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/xuefeng-huang"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/xuefeng_huang"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/users/4566048/xuefeng-huang"
+    name = "stack-overflow"
+    weight = 4
+
 

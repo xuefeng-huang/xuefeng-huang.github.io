@@ -1,6 +1,6 @@
 +++
 author = "xuefeng huang"
-date = "2016-07-25T22:30:37+08:00"
+date = "2016-07-25"
 description = "note about sklearn text classification"
 keywords = ["python", "sklearn"]
 tags = ["python"]
