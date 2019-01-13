@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://pedantic-cray-ce536a.netlify.com/"
 languageCode = "en-us"
 title = "Xuefeng Huang"
 theme = "minimal"
@@ -29,7 +29,7 @@ googleAnalytics = ""
 
 [[menu.main]]
     url = "/about/"
-    name = "About"
+    name = "About Me"
     weight = 3
 
 # Social icons to be shown on the right-hand side of the navigation bar
