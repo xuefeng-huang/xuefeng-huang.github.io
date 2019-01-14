@@ -8,6 +8,7 @@ googleAnalytics = ""
 [params]
     author = "xuefeng huang"
     description = "Personal blog, life thoughts, etc."
+    favicon = "favicon.ico"
     githubUsername = "#"
     accent = "#4AB3F4"
     showBorder = false
